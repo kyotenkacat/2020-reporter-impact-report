@@ -1,0 +1,51 @@
+@import '@/styles/variables.scss';
+
+html {
+  background-color: #f1f1f1;
+}
+
+#app {
+  box-sizing: border-box;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  margin: auto;
+  @include desktopAbove() {
+    max-width: $hd;
+    padding: 40px 40px;
+  }
+  @include tabletOnly() {
+    padding: 20px 20px;
+  }
+  @include mobileOnly() {
+    min-width: 360px;
+    padding: 10px 10px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  h1, h2, p, span {
+    color: $text-gray;
+    line-height: 1.6;
+    letter-spacing: 1.1px;
+  }
+  .img {
+    width: 100%;
+  }
+  .section {
+    @include tabletAbove() {
+      margin-bottom: 60px;
+    }
+    @include tabletBelow() {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@include desktopAbove() {
+      
+}
+@include tabletOnly() {
+  
+}
+@include mobileOnly() {
+  
+}
