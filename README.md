@@ -1,4 +1,9 @@
-# 2020-reporter-impact-report
+2020-reporter-impact-report
+===
+- 將報導者2020年的影響力報告內容設計為網頁版
+- Vue, Element UI, CSS
+- 提供部分使用者互動功能
+- 支援RWD (mobile, pad, desktop)
 
 ## Project setup
 ```
