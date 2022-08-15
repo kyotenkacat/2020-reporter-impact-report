@@ -1,29 +1,10 @@
-2020-reporter-impact-report
+[2020 Reporter Impact Report](https://kyotenkacat.github.io/2020-reporter-impact-report/)
 ===
-- 將報導者2020年的影響力報告內容設計為網頁版
-- Vue, Element UI, CSS
-- 提供部分使用者互動功能
-- 支援RWD (mobile, pad, desktop)
+將報導者 2020 年度的影響力報告內容設計為網頁版，提供部分使用者互動功能
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## **Keyword**
+- Vue2
+- Vue CLI
+- Element UI
+- Sass
+- RWD
