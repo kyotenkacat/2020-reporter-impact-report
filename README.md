@@ -6,5 +6,5 @@
 - Vue2
 - Vue CLI
 - Element UI
-- Sass
+- Scss
 - RWD
